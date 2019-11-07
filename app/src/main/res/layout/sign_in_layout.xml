@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAzul"
+    android:orientation="vertical"
+    tools:context=".SignIn_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:background="@color/colorAzul"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/logo_login" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape"
+            android:drawableRight="@drawable/ic_person_dp"
+            android:padding="10dp"
+            android:text="Johnsmith"
+            android:textColor="@color/colorBranca"
+            android:textSize="30sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape"
+            android:drawableRight="@drawable/ic_email_dp"
+            android:padding="10dp"
+            android:text="John@gmail.com"
+            android:textColor="@color/colorBranca"
+            android:textSize="30sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape"
+            android:drawableRight="@drawable/ic_lock_dp"
+            android:padding="10dp"
+            android:text="*******"
+            android:textColor="@color/colorBranca"
+            android:textSize="30sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/shape"
+            android:drawableRight="@drawable/ic_lock_dp"
+            android:padding="10dp"
+            android:text="*******"
+            android:textColor="@color/colorBranca"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shapes"
+            android:text="Sign Up"
+            android:textColor="@color/colorBranca"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>
